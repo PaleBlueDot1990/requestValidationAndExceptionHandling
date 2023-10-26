@@ -6,6 +6,7 @@ import com.bhuvnesh.requestValidationAndExceptionHandling.Exceptions.UserNotFoun
 import com.bhuvnesh.requestValidationAndExceptionHandling.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
 
@@ -42,4 +43,5 @@ public class UserService
         }
         return user;
     }
+
 }
